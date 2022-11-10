@@ -15,6 +15,10 @@
     text-align: center;
     text-decoration: none; 
 }
+.footer__links a:hover {
+    color: rgb(192, 143, 103);
+    text-decoration: underline;
+}
 .footer__text {
     font-size: 12px;
     width: 240px;
