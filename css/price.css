@@ -1,0 +1,35 @@
+.main__products-title {
+    background-color: silver;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.price {
+    font-weight: bold;
+}
+button {
+    background-color: rgb(136, 192, 192);
+    color: black;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    border-color: transparent;
+}
+.main__products li {
+    list-style: none;
+    padding: 5px 0 5px 0px;
+}
+
+.main__product-item {
+    border: 1px solid silver;
+    text-align: center;
+    margin: 10px;
+}
+.select-button {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.main__products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 2em;
+}

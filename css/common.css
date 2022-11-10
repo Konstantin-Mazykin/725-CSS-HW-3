@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto);
+@import url(https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap);
 
 * {
     margin: 0;
@@ -6,6 +7,10 @@
     box-sizing: border-box;
 }
 :root {
-    background-color: silver;
+    background-color: rgb(231, 250, 243);
     font-family: Roboto, sans-serif;
+}
+main {
+    margin: auto;
+    width: 960px;
 }

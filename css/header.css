@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: silver;
+}
+.header__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: auto;
+}
+.header__navigation a {
+	float: right;
+    width: 100px;
+    padding-top: 1.2em;
+    text-align: center;
+    color: black;
+	font-weight: bold;
+    text-decoration: none;
+}
+.header__navigation a:hover {
+    color: rgb(192, 143, 103);
+    text-decoration: underline;
+}
+.header__ligo-img{
+    width: 300px;
+    float: left;
+}

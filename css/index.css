@@ -1,2 +1,5 @@
 @import url(common.css);
-@import url(styles.css);
+@import url(header.css);
+@import url(body.css);
+@import url(price.css);
+@import url(footer.css);

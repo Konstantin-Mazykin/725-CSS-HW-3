@@ -1,0 +1,52 @@
+.main__title {
+    font-family: "Bungee Shade";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 1em;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+input[type="email"] {
+    height: 40px;
+    text-align: center;
+    padding: 5px 2em 5px 2em;
+    margin-bottom: 1em;
+}
+input[type="submit"] {
+    background-color: rgb(136, 192, 192);
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
+    border-color: transparent;
+}
+input[type="submit"]:hover {
+    background-color: rgb(192, 174, 136);
+    color: white;
+}
+.icons {
+    width: 90px;
+}
+.main__block-title {
+    font-family: "Bungee Shade";
+    font-size: 20px;
+    color: rgb(148, 16, 153);
+}
+.main__block-choice, .main__block-shippimg, .main__block-quality {
+    display: flex;
+    justify-content: first baseline;
+    padding: 20px 0 20px 20px;
+    width: 600px;
+}
+.main__video {
+    margin-bottom: 2em;
+    text-align: center;
+}
+.video-player {
+    width: 600px;
+}
