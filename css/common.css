@@ -10,7 +10,7 @@
     background-color: rgb(231, 250, 243);
     font-family: Roboto, sans-serif;
 }
-main {
+main, footer {
     margin: auto;
     width: 960px;
 }
