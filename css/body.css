@@ -29,9 +29,6 @@ input[type="submit"]:hover {
     background-color: var(--color-hover);
     color: white;
 }
-.icons {
-    width: 5.5em;
-}
 .main__block-title {
     font-family: "Bungee Shade";
     font-size: 20px;
