@@ -18,15 +18,15 @@ input[type="email"] {
     margin-bottom: 1em;
 }
 input[type="submit"] {
-    background-color: rgb(136, 192, 192);
+    background-color: var(--color-button);
     height: 40px;
-    color: black;
+    color: var(--color-links);
     font-weight: bold;
     padding: 5px 10px 5px 10px;
     border-color: transparent;
 }
 input[type="submit"]:hover {
-    background-color: rgb(192, 174, 136);
+    background-color: var(--color-hover);
     color: white;
 }
 .icons {
@@ -35,7 +35,7 @@ input[type="submit"]:hover {
 .main__block-title {
     font-family: "Bungee Shade";
     font-size: 20px;
-    color: rgb(148, 16, 153);
+    color: var(--color-title);
 }
 .main__block-choice, .main__block-shippimg, .main__block-quality {
     display: flex;

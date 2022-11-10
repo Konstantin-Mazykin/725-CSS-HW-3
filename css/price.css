@@ -1,5 +1,5 @@
 .main__products-title {
-    background-color: silver;
+    background-color: var(--color-backgraund);
     padding-top: 0.5em;
     padding-bottom: 0.5em;
 }
@@ -7,11 +7,14 @@
     font-weight: bold;
 }
 button {
-    background-color: rgb(136, 192, 192);
-    color: black;
+    background-color: var(--color-button);
     font-weight: bold;
     padding: 5px 20px 5px 20px;
     border-color: transparent;
+}
+button:hover {
+    background-color: var(--color-hover);
+    color: white;
 }
 .main__products li {
     list-style: none;
@@ -19,7 +22,7 @@ button {
 }
 
 .main__product-item {
-    border: 1px solid silver;
+    border: 1px solid var(--color-backgraund);
     text-align: center;
     margin: 10px;
 }
