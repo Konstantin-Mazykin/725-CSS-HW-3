@@ -28,6 +28,11 @@ header {
     color: var(--color-hover);
     text-decoration: underline;
 }
+@media (max-width: 600px) {
+    .header__navigation a {
+        width: 100px;
+    }
+}
 .header__ligo-img{
     width: 300px;
     float: left;

@@ -17,5 +17,20 @@
 }
 main, footer {
     margin: auto;
-    width: 960px;
+    width: 60%;
+}
+@media (max-width: 1400px) {
+    main, footer {
+        width: 75%;
+    }
+}
+@media (max-width: 960px) {
+    main, footer {
+        width: 85%;
+    }
+}
+@media (max-width: 600px) {
+    main, footer {
+        width: 95%;
+    }
 }

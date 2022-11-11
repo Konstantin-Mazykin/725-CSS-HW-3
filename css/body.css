@@ -54,5 +54,21 @@ input[type="submit"]:hover {
     text-align: center;
 }
 .video-player {
-    width: 600px;
+    width: 70%;
+}
+@media (max-width: 1200px) {
+    .video-player {
+        width: 80%;
+    }
+}
+@media (max-width: 900px) {
+    .video-player {
+        width: 90%;
+    }
+}
+@media (max-width: 600px) {
+    .video-player {
+        width: 100%;
+    }
+    
 }
