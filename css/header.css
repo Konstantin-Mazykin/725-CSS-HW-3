@@ -30,7 +30,7 @@ header {
 }
 @media (max-width: 600px) {
     .header__navigation a {
-        width: 100px;
+        width: 130px;
     }
 }
 .header__ligo-img{
