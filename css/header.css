@@ -4,18 +4,20 @@ header {
 }
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: var(--color-backgraund);
 }
 .header__navigation {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
     padding: auto;
 }
 .header__navigation a {
 	float: right;
-    width: 200px;
+    width: 150px;
     padding-top: 1.2em;
     color: var(--color-links);
     text-align: center;
